@@ -91,8 +91,7 @@ ul {
 /* remember to add media queries and css grids */   
 
 
-
-#twb{
+#twb, #jlc, #tb{
     position: absolute;
     left: 350px;
     top: 365px;
@@ -105,80 +104,64 @@ ul {
     box-sizing: border-box;
 }
 
-#jlc{
+#ws, #sb, #vd, #th{
     position: absolute;
-    left: 350px;
-    top: 765px;
+    left: 240px;
+    top: 365px;
     background-color: #f1f1f1;
     padding: 10px;
     color: black;
     border: red 2px dashed;
     display: none;
-    font-size: 30px;
+    font-size: 20px;
     box-sizing: border-box;
+}
+
+#twb{
+    top: 365px;
+}
+
+#jlc{
+    top: 765px;
 }
 
 #tb{
-    position: absolute;
-    left: 350px;
     top: 1165px;
-    background-color: #f1f1f1;
-    padding: 10px;
-    color: black;
-    border: red 2px dashed;
-    display: none;
-    font-size: 30px;
-    box-sizing: border-box;
 }
 
 #ws{
-    position: absolute;
-    left: 240px;
     top: 1620px;
-    background-color: #f1f1f1;
-    padding: 10px;
-    color: black;
-    border: red 2px dashed;
-    display: none;
-    font-size: 20px;
-    box-sizing: border-box;
 }
 
 #sb{
-    position: absolute;
-    left: 240px;
     top: 1900px;
-    background-color: #f1f1f1;
-    padding: 10px;
-    color: black;
-    border: red 2px dashed;
-    display: none;
-    font-size: 20px;
-    box-sizing: border-box;
 }
 
 #vd{
-    position: absolute;
-    left: 240px;
     top: 2180px;
-    background-color: #f1f1f1;
-    padding: 10px;
-    color: black;
-    border: red 2px dashed;
-    display: none;
-    font-size: 20px;
-    box-sizing: border-box;
 }
 
 #th{
-    position: absolute;
-    left: 240px;
     top: 2480px;
-    background-color: #f1f1f1;
-    padding: 10px;
-    color: black;
-    border: red 2px dashed;
+}
+
+#jlcevent, #twbevent, #qpevent, #tbevent, #hcevent {
     display: none;
-    font-size: 20px;
-    box-sizing: border-box;
+}
+
+input[type="button"], input[type="submit"] {
+    background-color: white;
+    color: black;
+    border: 2px solid red; 
+    transition-duration: 0.4s;
+    text-align: center;
+    display: inline-block;
+    font-size: 26px;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+
+input[type="button"]:hover {
+    background-color: red;
+    color: white;
 }
