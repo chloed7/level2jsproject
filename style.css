@@ -4,14 +4,181 @@ a:link {
   
 /* visited link */
 a:visited {
-    color: green;
+    color: rgb(255, 255, 255);
 }
 /* mouse over link */
 a:hover {
-    color: hotpink;
+    color: rgb(255, 255, 255);
 }
   
 /* selected link */
 a:active {
-color: purple;
+color: red;
+}
+
+/* page headings */
+h1 {
+    font-size: 65px;
+}
+
+/* subheadings */
+.subhead {
+    color: red;
+    font-size: 30px;
+}
+
+/* navbar */
+#navbar {
+    background-color: red;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: none;
+    padding: none;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: lightslategrey;
+  }
+
+/* featured guest pics */
+.featured {
+    border-radius: 50%;
+    width: 300px ;
+    height: 300px;
+
+}
+
+/* other guest pics */
+.otherguest {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+}
+
+/* other guest name */
+.title {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.eventpics {
+    width: 550px;
+    height: 350px;
+}
+
+/* remember to add media queries and css grids */   
+
+
+
+#twb{
+    position: absolute;
+    left: 350px;
+    top: 365px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    color: black;
+    border: red 2px dashed;
+    display: none;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+#jlc{
+    position: absolute;
+    left: 350px;
+    top: 765px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    color: black;
+    border: red 2px dashed;
+    display: none;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+#tb{
+    position: absolute;
+    left: 350px;
+    top: 1165px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    color: black;
+    border: red 2px dashed;
+    display: none;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+#ws{
+    position: absolute;
+    left: 240px;
+    top: 1620px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    color: black;
+    border: red 2px dashed;
+    display: none;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+#sb{
+    position: absolute;
+    left: 240px;
+    top: 1900px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    color: black;
+    border: red 2px dashed;
+    display: none;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+#vd{
+    position: absolute;
+    left: 240px;
+    top: 2180px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    color: black;
+    border: red 2px dashed;
+    display: none;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+#th{
+    position: absolute;
+    left: 240px;
+    top: 2480px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    color: black;
+    border: red 2px dashed;
+    display: none;
+    font-size: 20px;
+    box-sizing: border-box;
 }
